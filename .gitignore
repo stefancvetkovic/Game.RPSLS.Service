@@ -204,3 +204,6 @@ FodyWeavers.xsd
 
 # macOS
 .DS_Store
+
+#logs
+src/4.Presentation/RpslsGameService.Api/logs/
