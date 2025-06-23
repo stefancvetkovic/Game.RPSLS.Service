@@ -1,0 +1,90 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E3C0A4D7-3C32-4E1D-8C3F-E3F2B2F67D20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Domain", "1.Domain", "{A6D1E7A7-E3C3-4E1D-8C3F-E3F2B2F67D21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application", "2.Application", "{B7E2F8B8-F4D4-5F2E-9D40-F4F3C3F78E32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infrastructure", "3.Infrastructure", "{A621583F-ED09-40DD-B395-A760E41D411E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Presentation", "4.Presentation", "{C5394776-442C-4D43-965A-074B94D7A83A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Tests", "5.Tests", "{A235E29B-3800-4960-A5B8-7913604DA5A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpslsGameService.Domain", "src\1.Domain\RpslsGameService.Domain\RpslsGameService.Domain.csproj", "{12345678-1234-1234-1234-123456789001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpslsGameService.Application", "src\2.Application\RpslsGameService.Application\RpslsGameService.Application.csproj", "{12345678-1234-1234-1234-123456789002}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpslsGameService.Infrastructure", "src\3.Infrastructure\RpslsGameService.Infrastructure\RpslsGameService.Infrastructure.csproj", "{12345678-1234-1234-1234-123456789003}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpslsGameService.Api", "src\4.Presentation\RpslsGameService.Api\RpslsGameService.Api.csproj", "{12345678-1234-1234-1234-123456789004}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpslsGameService.Domain.Tests", "src\5.Tests\RpslsGameService.Domain.Tests\RpslsGameService.Domain.Tests.csproj", "{12345678-1234-1234-1234-123456789005}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpslsGameService.Application.Tests", "src\5.Tests\RpslsGameService.Application.Tests\RpslsGameService.Application.Tests.csproj", "{12345678-1234-1234-1234-123456789006}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpslsGameService.Infrastructure.Tests", "src\5.Tests\RpslsGameService.Infrastructure.Tests\RpslsGameService.Infrastructure.Tests.csproj", "{12345678-1234-1234-1234-123456789007}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpslsGameService.Api.Tests", "src\5.Tests\RpslsGameService.Api.Tests\RpslsGameService.Api.Tests.csproj", "{12345678-1234-1234-1234-123456789008}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12345678-1234-1234-1234-123456789001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12345678-1234-1234-1234-123456789001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12345678-1234-1234-1234-123456789002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12345678-1234-1234-1234-123456789002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12345678-1234-1234-1234-123456789003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12345678-1234-1234-1234-123456789003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12345678-1234-1234-1234-123456789004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12345678-1234-1234-1234-123456789004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12345678-1234-1234-1234-123456789005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12345678-1234-1234-1234-123456789005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12345678-1234-1234-1234-123456789006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12345678-1234-1234-1234-123456789006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12345678-1234-1234-1234-123456789007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12345678-1234-1234-1234-123456789007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12345678-1234-1234-1234-123456789008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12345678-1234-1234-1234-123456789008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12345678-1234-1234-1234-123456789008}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6D1E7A7-E3C3-4E1D-8C3F-E3F2B2F67D21} = {E3C0A4D7-3C32-4E1D-8C3F-E3F2B2F67D20}
+		{B7E2F8B8-F4D4-5F2E-9D40-F4F3C3F78E32} = {E3C0A4D7-3C32-4E1D-8C3F-E3F2B2F67D20}
+		{A621583F-ED09-40DD-B395-A760E41D411E} = {E3C0A4D7-3C32-4E1D-8C3F-E3F2B2F67D20}
+		{C5394776-442C-4D43-965A-074B94D7A83A} = {E3C0A4D7-3C32-4E1D-8C3F-E3F2B2F67D20}
+		{A235E29B-3800-4960-A5B8-7913604DA5A6} = {E3C0A4D7-3C32-4E1D-8C3F-E3F2B2F67D20}
+		{12345678-1234-1234-1234-123456789001} = {A6D1E7A7-E3C3-4E1D-8C3F-E3F2B2F67D21}
+		{12345678-1234-1234-1234-123456789002} = {B7E2F8B8-F4D4-5F2E-9D40-F4F3C3F78E32}
+		{12345678-1234-1234-1234-123456789003} = {A621583F-ED09-40DD-B395-A760E41D411E}
+		{12345678-1234-1234-1234-123456789004} = {C5394776-442C-4D43-965A-074B94D7A83A}
+		{12345678-1234-1234-1234-123456789005} = {A235E29B-3800-4960-A5B8-7913604DA5A6}
+		{12345678-1234-1234-1234-123456789006} = {A235E29B-3800-4960-A5B8-7913604DA5A6}
+		{12345678-1234-1234-1234-123456789007} = {A235E29B-3800-4960-A5B8-7913604DA5A6}
+		{12345678-1234-1234-1234-123456789008} = {A235E29B-3800-4960-A5B8-7913604DA5A6}
+	EndGlobalSection
+EndGlobal

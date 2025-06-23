@@ -1,0 +1,23 @@
+{
+  "profiles": {
+    "RpslsGameService.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:56167;http://localhost:56168"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "environmentVariables": {
+        "ASPNETCORE_HTTPS_PORTS": "56167",
+        "ASPNETCORE_HTTP_PORTS": "56168"
+      },
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}
